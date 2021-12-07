@@ -23,6 +23,9 @@
     -->
     <integer name="config_udfpsHbmType">0</integer>
 
+    <!-- Udfps vendor code -->
+    <integer name="config_udfps_vendor_code">22</integer>
+
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
