@@ -16,7 +16,7 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Extras
-AWAKEN_BUILD_TYPE := OFFICIAL
+AWAKEN_BUILD_TYPE := official
 USE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
