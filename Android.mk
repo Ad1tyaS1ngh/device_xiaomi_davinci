@@ -20,19 +20,6 @@ ifeq ($(TARGET_DEVICE),davinci)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
-LPFLASH := $(HOST_OUT_EXECUTABLES)/lpflash$(HOST_EXECUTABLE_SUFFIX)
-INSTALLED_SUPERIMAGE_DUMMY_TARGET := $(PRODUCT_OUT)/super_dummy.img
-
-$(INSTALLED_SUPERIMAGE_DUMMY_TARGET): $(PRODUCT_OUT)/super_empty.img $(LPFLASH)
-	$(call pretty,"Target dummy super image: $@")
-	$(hide) touch $@
-	$(hide) $(LPFLASH) $@ $(PRODUCT_OUT)/super_empty.img
-
-.PHONY: super_dummyimage
-super_dummyimage: $(INSTALLED_SUPERIMAGE_DUMMY_TARGET)
-
-INSTALLED_RADIOIMAGE_TARGET += $(INSTALLED_SUPERIMAGE_DUMMY_TARGET)
-
 include $(CLEAR_VARS)
 
 # A/B builds require us to create the mount points at compile time.
@@ -76,7 +63,7 @@ $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "IMS lib link: $@"
 	@mkdir -p $(dir $@)
 	@rm -rf $@
-	$(hide) ln -sf /system_ext/lib64/$(notdir $@) $@
+	$(hide) ln -sf /system/system_ext/lib64/$(notdir $@) $@
 
 ALL_DEFAULT_INSTALLED_MODULES += $(IMS_SYMLINKS)
 
