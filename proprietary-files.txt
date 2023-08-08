@@ -214,9 +214,6 @@ vendor/etc/camera/LDC_table_src2.dat|f35be47fc631f8b50267ec9a1bee4a3ebfbe518d
 vendor/etc/camera/beauty_ui9_intelligent_params.config|2318e6290c3a0a9385b3341a300f86cb4ebe4793
 vendor/etc/camera/body_slim_ui9_params.config|6a341b766aa06b6f8496fd96c440ea27a023eb0b
 vendor/etc/camera/eyelineblush.cng|f85c3388ab3112ad8963e004c47b131e5d567cca
--vendor/lib64/camera/components/com.almalence.node.sr.so|0ee609bfd81711da87a842cf9821fcba0ecdb512
--vendor/lib64/camera/components/com.altek.node.depurple.so|456ac4884116fcc6e144388de91b2ba8ccc006e5
--vendor/lib64/camera/components/com.altek.node.distortioncorrection.so|7c1029daaa775be5eaa677acd44564e753d97e5b
 -vendor/lib64/camera/components/com.arcsoft.node.bodyslim.so|68bdd8e4af5ca0c9315333453a0e6afa3bb4239b
 -vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so|ef9aa3d7688e725173073ec8cc7fa048bc35e4aa
 -vendor/lib64/camera/components/com.arcsoft.node.capturefusion.so|6f3554269fc304dcb8a23facf6a39f57ace55b48
@@ -343,7 +340,6 @@ vendor/etc/init/cnd.rc
 -vendor/lib64/vendor.qti.hardware.data.lce@1.0.so
 -vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 -vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
--vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 -vendor/lib64/vendor.qti.latency@2.0.so
 -vendor/lib64/vendor.qti.latency@2.1.so
 
