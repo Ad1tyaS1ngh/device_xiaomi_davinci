@@ -4,5 +4,5 @@
 
 runtime_resource_overlay {
     name: "AOSPDavinciSystemUIOverlay",
-    vendor: true,
+    product_specific: true,
 }

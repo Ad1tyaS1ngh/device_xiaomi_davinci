@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "DavinciNfcOverlay",
-    vendor: true,
+    product_specific: true,
 }

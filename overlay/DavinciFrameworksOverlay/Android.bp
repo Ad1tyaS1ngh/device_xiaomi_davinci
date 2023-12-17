@@ -4,5 +4,5 @@
 
 runtime_resource_overlay {
     name: "DavinciFrameworksOverlay",
-    vendor: true,
+    product_specific: true,
 }

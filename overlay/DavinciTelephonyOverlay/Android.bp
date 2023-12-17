@@ -4,5 +4,5 @@
 
 runtime_resource_overlay {
     name: "DavinciTelephonyOverlay",
-    vendor: true,
+    product_specific: true,
 }

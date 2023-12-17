@@ -4,5 +4,5 @@
 
 runtime_resource_overlay {
     name: "DavinciSettingsProviderOverlay",
-    vendor: true,
+    product_specific: true,
 }
