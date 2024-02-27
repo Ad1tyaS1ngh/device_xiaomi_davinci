@@ -115,9 +115,25 @@ vendor/etc/camera/camxoverridesettings.txt|967d285e6f55b0f36bfb690e8244a23d050d4
 vendor/etc/camera/eisoverridesettings.txt|4ea9ba43f55eaf0ac3106a0b63c49654af741270
 vendor/etc/camera/golden_rear_dc_cal_wu.bin|1a1f60f07b46d09d36fa3380e3e8b1bbb412937d
 vendor/firmware/CAMERA_ICP.elf|83145cf3fff905bc67828a65b12ea5942ba8a638
-vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml|39aa21900ab8aa4fb8f42ccd48873f5d174703c3
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml|dfc5e6919768a527868733ec118ca81515419f0d
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml|5cf337fd13d6c53c56e7571f1701e7023afcd228
+-vendor/lib64/camera/com.qti.sensor.imx582_davinci.so|b017332f19bf8c1ae80cc466ce49b8537bc5a657
+-vendor/lib64/camera/com.qti.sensor.ov8856_davinci.so|580f522601426ea17053aa3d8e99a2963b1fe1db
+-vendor/lib64/camera/com.qti.sensor.s5k3l6_davinci.so|1376ae9870d61cca6638f7e0785b821e4200a295
+-vendor/lib64/camera/com.qti.sensor.s5k3t2_davinci.so|c352d4a2b4368255a6bda9cf7ecaa5563cce84f9
+vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_imx582.bin|3c911e79b022e25c896e9f73734e4c0499d0bb1a
+vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_ov8856.bin|685a5314d00a29c4932c22f627d69229c59564fb
+vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_s5k3l6.bin|0239c63519e96b82495f84a853221586ae64c282
+vendor/lib64/camera/com.qti.sensormodule.davinci_ofilm_imx582.bin|151c9ee6335b9ee538b84285351d5c835929b7ec
+vendor/lib64/camera/com.qti.sensormodule.davinci_ofilm_ov8856.bin|945f41b5772b422e69ac698f4fb0c3465aee64b2
+vendor/lib64/camera/com.qti.sensormodule.davinci_ofilm_s5k3l6.bin|37e59169f8db4834854aa93c6707522c2a97a399
+vendor/lib64/camera/com.qti.sensormodule.davinci_sunny_s5k3t2.bin|91d80310d8f2c87b2b97edc587ec74cd7c31c53d
+vendor/lib64/camera/com.qti.tuned.davinci_luxvisions_imx582.bin|34553331ad960eff76cd33c3b869dcf7315693ea
+vendor/lib64/camera/com.qti.tuned.davinci_luxvisions_ov8856.bin|69fa9767718189093890f534dc32ba77bbe9b2d2
+vendor/lib64/camera/com.qti.tuned.davinci_luxvisions_s5k3l6.bin|a3fa7e6873eca516a2befcb7c226292b9a3d509e
+vendor/lib64/camera/com.qti.tuned.davinci_ofilm_imx582.bin|08b59c2c6e0365fbe62f4c29d018a4a915948ddb
+vendor/lib64/camera/com.qti.tuned.davinci_ofilm_ov8856.bin|69fa9767718189093890f534dc32ba77bbe9b2d2
+vendor/lib64/camera/com.qti.tuned.davinci_ofilm_s5k3l6.bin|a3fa7e6873eca516a2befcb7c226292b9a3d509e
+vendor/lib64/camera/com.qti.tuned.davinci_sunny_s5k3t2.bin|af7a30f6e7a2c8c5f2bc908eef73ac96f6960940
+vendor/lib64/camera/com.qti.tuned.default.bin|b4dcbf01726d22c2d655b13a7d41c93c1d58ed15
 -vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|1ad3c15af91ba9e329ca62fc25f93e9f1a31b836
 -vendor/lib64/camera/components/com.qti.eisv2.so|9ca3d235d729408bf60cb53e3c1212d6c41ec75b
 -vendor/lib64/camera/components/com.qti.eisv3.so|38edea1c372a06333ee2a49e06487bc282abe543
@@ -151,27 +167,11 @@ vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml|5cf337fd13
 -vendor/lib64/camera/components/com.qtistatic.stats.af.so|9c3517ae283e5c1f95930e0b074bfe8b73065336
 -vendor/lib64/camera/components/com.qtistatic.stats.awb.so|cc6e313006f7bcc637daf24e98b6e3f82d3a79ef
 -vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|fab044a27025b86121e3425ec4a3e78f1ed59bd1
+vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml|39aa21900ab8aa4fb8f42ccd48873f5d174703c3
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml|dfc5e6919768a527868733ec118ca81515419f0d
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml|5cf337fd13d6c53c56e7571f1701e7023afcd228
 -vendor/lib64/camera/components/libdepthmapwrapper.so|e759fd54a094ebfd232b6ae4625ae8dd176dc128
 -vendor/lib64/camera/components/libmmcamera_cac3.so|5a78167cd8177bab9762d323f3d3cb5585312eb7
--vendor/lib64/camera/com.qti.sensor.imx582_davinci.so|b017332f19bf8c1ae80cc466ce49b8537bc5a657
--vendor/lib64/camera/com.qti.sensor.ov8856_davinci.so|580f522601426ea17053aa3d8e99a2963b1fe1db
--vendor/lib64/camera/com.qti.sensor.s5k3l6_davinci.so|1376ae9870d61cca6638f7e0785b821e4200a295
--vendor/lib64/camera/com.qti.sensor.s5k3t2_davinci.so|c352d4a2b4368255a6bda9cf7ecaa5563cce84f9
-vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_imx582.bin|3c911e79b022e25c896e9f73734e4c0499d0bb1a
-vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_ov8856.bin|685a5314d00a29c4932c22f627d69229c59564fb
-vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_s5k3l6.bin|0239c63519e96b82495f84a853221586ae64c282
-vendor/lib64/camera/com.qti.sensormodule.davinci_ofilm_imx582.bin|151c9ee6335b9ee538b84285351d5c835929b7ec
-vendor/lib64/camera/com.qti.sensormodule.davinci_ofilm_ov8856.bin|945f41b5772b422e69ac698f4fb0c3465aee64b2
-vendor/lib64/camera/com.qti.sensormodule.davinci_ofilm_s5k3l6.bin|37e59169f8db4834854aa93c6707522c2a97a399
-vendor/lib64/camera/com.qti.sensormodule.davinci_sunny_s5k3t2.bin|91d80310d8f2c87b2b97edc587ec74cd7c31c53d
-vendor/lib64/camera/com.qti.tuned.davinci_luxvisions_imx582.bin|34553331ad960eff76cd33c3b869dcf7315693ea
-vendor/lib64/camera/com.qti.tuned.davinci_luxvisions_ov8856.bin|69fa9767718189093890f534dc32ba77bbe9b2d2
-vendor/lib64/camera/com.qti.tuned.davinci_luxvisions_s5k3l6.bin|a3fa7e6873eca516a2befcb7c226292b9a3d509e
-vendor/lib64/camera/com.qti.tuned.davinci_ofilm_imx582.bin|08b59c2c6e0365fbe62f4c29d018a4a915948ddb
-vendor/lib64/camera/com.qti.tuned.davinci_ofilm_ov8856.bin|69fa9767718189093890f534dc32ba77bbe9b2d2
-vendor/lib64/camera/com.qti.tuned.davinci_ofilm_s5k3l6.bin|a3fa7e6873eca516a2befcb7c226292b9a3d509e
-vendor/lib64/camera/com.qti.tuned.davinci_sunny_s5k3t2.bin|af7a30f6e7a2c8c5f2bc908eef73ac96f6960940
-vendor/lib64/camera/com.qti.tuned.default.bin|b4dcbf01726d22c2d655b13a7d41c93c1d58ed15
 vendor/lib64/camera/fdconfigpreview.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigpreviewlite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigvideo.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
@@ -256,9 +256,9 @@ vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_
 -vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so|b6f8623b2f954f5773128ae2fe82b058942e7b4e
 
 # Camera Visidon - from davinci V12.5.2.0.RFJCNXM
-vendor/lib64/camera/components/etc/visidon_clearshot_params.xml|8041eed40eea41ad98576616a3edaf7da6ae097e
 -vendor/lib64/camera/components/com.visidon.node.clearshot.so|5e6b8eee6eebb3993bd4ecc7cab310fb9155ddd2
 -vendor/lib64/camera/components/com.visidon.node.sr.so|29ef1cdb3499cbb591a77523604f0e3ffd6c5b96
+vendor/lib64/camera/components/etc/visidon_clearshot_params.xml|8041eed40eea41ad98576616a3edaf7da6ae097e
 -vendor/lib64/libVDClearShot.so|d171672e54e8efab69016e6f3ee8469518ddcb01
 -vendor/lib64/libVDSuperPhotoAPI.so|787ecee12dc0c9e95f2012f4097091ab7fd34ace
 
@@ -420,8 +420,8 @@ vendor/etc/init/dpmQmiMgr.rc
 
 # DRM
 -vendor/bin/qseecomd
-vendor/etc/init/qseecomd.rc
 vendor/etc/gpfspath_oem_config.xml
+vendor/etc/init/qseecomd.rc
 -vendor/lib64/libGPreqcancel.so
 -vendor/lib64/libGPreqcancel_svc.so
 -vendor/lib64/libQSEEComAPI.so
@@ -442,8 +442,8 @@ vendor/etc/gpfspath_oem_config.xml
 -vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
--vendor/lib64/mediadrm/libwvdrmengine.so
 -vendor/lib64/libwvhidl.so
+-vendor/lib64/mediadrm/libwvdrmengine.so
 
 # DSP
 -vendor/bin/dspservice
@@ -726,8 +726,8 @@ system_ext/etc/permissions/qcrilhook.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--vendor/bin/hw/qcrild
 -vendor/bin/adpl
+-vendor/bin/hw/qcrild
 -vendor/bin/netmgrd
 -vendor/bin/qti
 -vendor/bin/rmt_storage
@@ -784,6 +784,7 @@ vendor/etc/init/vendor.qti.tftp.rc
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
 vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/11_version_update_ecc_table.sql
@@ -799,7 +800,6 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
-vendor/radio/qcril_database/qcril.db
 
 # Sensors - from davinci V12.5.2.0.RFJCNXM
 -vendor/bin/sensors.qti|fea1ca9546af863cbe85e665510f5bc36a0d61bb
